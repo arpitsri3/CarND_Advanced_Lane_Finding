@@ -166,7 +166,7 @@ As discussed in section 4 , Here's a visualization of applying result and unwarp
 #### 1. Provide a link to your final video output.  Your pipeline should perform reasonably well on the entire project video (wobbly lines are ok but no catastrophic failures that would cause the car to drive off the road!).
 
 I tried the same pipeline on the test video - Once with the position of vehicle displayed (./test_videos_output/project_video_output1.mp4) and one without the vehicle position but both left and right curvatures (./test_videos_output/project_video_output.mp4). I was slightly surprised by the slight difference in the results at both the times. 
----
+
 
 ### Discussion
 
