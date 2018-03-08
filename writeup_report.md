@@ -151,7 +151,7 @@ Here's a visualization of just the unwarped lane lines:
 
 #### 5. Describe how (and identify where in your code) you calculated the radius of curvature of the lane and the position of the vehicle with respect to center.
 
-The radius of curvature is calculated using the formula given in the classroom and the code implementation for it given in the classroom. The same can be found in the code implemented in cell 19. The Vehicle position is calculatede by averaging the min of left points and max of right points and subtracting this mean from the image width by 2 (which is rougly the center of lane) by intuition.
+The radius of curvature is calculated using the formula given in the classroom and the code implementation for it given in the classroom. The same can be found in the code implemented in cell 19. The Vehicle position is calculatede by averaging the sum of the last value of left fit points and the last value of the right fit points and subtracting this mean from the image width by 2 (which is rougly the center of lane) by intuition and also suggested in the first project submission review. The last value is taken as it corresponds to the bottom of the image.
 
 #### 6. Provide an example image of your result plotted back down onto the road such that the lane area is identified clearly.
 
