@@ -165,7 +165,7 @@ As discussed in section 4 , Here's a visualization of applying result and unwarp
 
 #### 1. Provide a link to your final video output.  Your pipeline should perform reasonably well on the entire project video (wobbly lines are ok but no catastrophic failures that would cause the car to drive off the road!).
 
-I tried the same pipeline on the test video - Once with the position of vehicle displayed (./test_videos_output/project_video_output1.mp4) and one without the vehicle position but both left and right curvatures (./test_videos_output/project_video_output.mp4). I was slightly surprised by the slight difference in the results at both the times. 
+I have displayed the left lane, right lane , and vehicle position in my latest output. I have removed the older video which had to be improved for resubmission and reuploaded the new one (./CarND_Advanced_Lane_Finding/test_videos_output/project_video_output.mp4). I have commented out the gaussian blur and canny implementation parts for my pipeline and i was pleasantly surprised to see better results. Conclusively, some details from the frames was getting lost as maybe the smoothing was more than required.
 
 
 ### Discussion
